@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2026 신라 해커톤</title>
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS 연결 -->
+    <link rel="stylesheet" href="행사안내(모달)/css/style.css" />
+  </head>
+  <body>
+    <!-- 머리말 -->
+    <header class="site-header">
+      <div class="wrapper header-inner">
+        <h1 class="logo"><a href="#main">SILLA HACK 2026</a></h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="#about">소개</a></li>
+            <li><a href="#schedule">일정</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 메인 영역 -->
+    <section id="main">
+      <div class="wrapper">
+        <p class="main-date">2026. 11. 21 SAT - 22 SUN</p>
+        <h2>
+          24시간, 아이디어를<br />
+          코드로 바꾸는 시간
+        </h2>
+        <p>컴퓨터공학과 학생이라면 누구나 참가할 수 있습니다.</p>
+        <button class="btn-open">참가 신청 안내 보기</button>
+      </div>
+    </section>
+    <section id="about">
+      <div class="wrapper">
+        <h2>행사 소개</h2>
+        <p>
+          2~4명이 한 팀이 되어 24시간 동안 웹 서비스를 기획하고 완성합니다.
+          <br />처음 참가하는 학생도 멘토와 함께 끝까지 완주할 수 있습니다.
+        </p>
+        <ul>
+          <li>주제 : AI로 캠퍼스 생활을 편리하게</li>
+          <li>장소 : 신라대학교 공학관 대강당</li>
+          <li>시상 : 대상 1팀, 최우수상 2팀, 우수상 3팀</li>
+        </ul>
+      </div>
+    </section>
+    <section id="schedule">
+      <div class="wrapper">
+        <h2>행사 일정</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>시간</th>
+              <th>내용</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>11/21 10:00</td>
+              <td>개회식 및 팀 빌딩</td>
+            </tr>
+            <tr>
+              <td>11/21 12:00</td>
+              <td>개발 시</td>
+            </tr>
+            <tr>
+              <td>11/21 12:00</td>
+              <td>개발 종료 및 발표</td>
+            </tr>
+            <tr>
+              <td>11/21 15:00</td>
+              <td>시상식</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 꼬리말 -->
+    <footer class="site-footer">
+      <a href="mailto:exem@exam.com">문의하기</a>
+      / <small>&copy; 2026 SILLA HAC</small>
+    </footer>
+
+    <!-- 위로 가기 버튼 -->
+    <a href="#" class="btn-top">🔝</a>
+
+    <!-- 모달 -->
+    <div class="modal show">
+      <!-- 배경 -->
+      <div class="modal-bg"></div>
+
+      <!-- 가운 뜨는 상자 -->
+      <div class="modal-box">
+        <h2>참가 신청 안내</h2>
+        <p>
+          <strong>신청 기간: 11월 2일(월) ~ 11월 13일(금)</strong>
+        </p>
+        <hr />
+        <ul>
+          <li>팀장 1명이 팀원 정보를 모아 신청합니다.</li>
+          <li>노트북은 각자 준비해 주세요.</li>
+          <li>식사와 간식은 모두 제공됩니다.</li>
+        </ul>
+        <hr />
+        <div class="modal-buttons">
+          <button class="btn-close">닫기</button>
+        </div>
+      </div>
+    </div>
+    <script src="행사안내(모달)/js/script.js"></script>
+  </body>
+</html>
